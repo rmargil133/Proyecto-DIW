@@ -1,0 +1,105 @@
+@import '/src/assets/sass/utilities/_mixins';
+
+header{
+    width: 100%;
+    
+    @include flex( row , wrap , space-between , center);
+
+    div{
+      display: flex;
+      align-items: center;
+      border: 0;
+      margin-left: 2%;
+  
+      h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: x-large;
+        display: inline;
+        margin-left: 15px;
+      }
+      
+      img.logo-cabecera{
+        margin-top: 5px;
+        width: 65px;
+        height: 65px;
+      }
+
+    }
+    
+    button{
+      margin-right: 10px;
+      background-color: #FFFFFF;
+      display: none;
+      cursor: pointer;
+
+      @include media(){
+        display: block;
+      }
+      svg{
+        width: 2em;
+        height: 2em;
+      }
+    }
+
+    nav{
+      z-index: 1;
+
+      @include media(){
+        width: 100%;
+        // display: none;
+        opacity: 0;
+        height: 0vh;
+        pointer-events: none;
+        overflow: hidden;
+        transition: all .5s ease;
+        @include flex( column , nowrap , center, center);
+
+        &.activo{
+        //display: flex;
+        opacity: 1;
+        height: 32vh;
+        pointer-events: auto;
+        }
+      }
+
+      ul{
+        @include flex( row , wrap , flex-end , center);
+
+        @include media () {
+          flex-direction: column;
+          width: 100%;
+        }
+        margin-inline-start: auto;
+        li{
+          margin: 0.5em;
+          display: inline;
+          padding-left: 10px;
+          padding-right: 10px;
+          @include media(){
+            margin: 1em 0;
+          }
+          a{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #49319E;
+            font-size: medium;
+            font-weight: bolder;
+            text-decoration: none;
+          }
+          img{
+            width: 180px;
+            height: 100px;
+          }
+        }
+      }
+      li:hover{
+        background-color: rgb(43, 68, 230);
+        border-radius: 3px;
+
+        a:hover{
+          color: white;
+        }
+      }
+
+    }
+}

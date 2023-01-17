@@ -1,0 +1,582 @@
+.login{
+    height: 81vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+    &__formulario{
+      width: 400px;
+      height: 300px;
+      align-items: center;
+      position: absolute;
+      top: 25%;
+      list-style: none;
+      background: #d8d8d8d3;
+      border-radius: 5%;
+      border: 5px solid;
+      border-color: #49319e;
+  
+      h2{
+        top: 5%;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #49319e;
+        position: relative;
+        text-align: center;
+        
+      } 
+  
+      ul{
+        position: relative;
+        top: 13%;
+        list-style: none;
+        text-align: center;
+  
+        li{
+          input{
+            border-radius: 20px;
+            width: 230px;
+            height: 40px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            text-indent: 5px;
+          }
+
+          button{
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            background-color: #700c9c;
+            background-image: -webkit-linear-gradient(top, #700C9C, #2079b0);
+            background-image: -moz-linear-gradient(top, #700C9C, #2079b0);
+            background-image: -ms-linear-gradient(top, #700C9C, #2079b0);
+            background-image: -o-linear-gradient(top, #700C9C, #2079b0);
+            background-image: linear-gradient(to bottom, #700C9C, #2079b0);
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            cursor: pointer;
+          }
+          button:hover{
+            background: #2079b0;
+            background-image: -webkit-linear-gradient(top, #2079b0, );
+            background-image: -moz-linear-gradient(top, #2079b0, #700C9C);
+            background-image: -ms-linear-gradient(top, #2079b0, #700C9C);
+            background-image: -o-linear-gradient(top, #2079b0, #700C9C);
+            background-image: linear-gradient(to bottom, #2079b0, #700C9C);
+            text-decoration: none;
+          }
+        }
+        li:last-child{
+          margin-top: 3%;
+        }
+      }
+    }
+  }
+  
+.register{
+  height: 81vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  &__formulario{
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    list-style: none;
+    background: #d8d8d8d3;
+    border-radius: 5%;
+    border: 5px solid;
+    border-color: #49319e;
+
+    h2{
+      top: 5%;
+      font-size: 35px;
+      font-family: 'Times New Roman', Times, serif;
+      color: #49319e;
+      position: relative;
+      text-align: center;
+      
+    } 
+
+    ul{
+      position: relative;
+      top: 13%;
+      list-style: none;
+      text-align: center;
+
+      li{
+        input{
+          border-radius: 20px;
+          width: 230px;
+          height: 40px;
+          margin-top: 10px;
+          margin-bottom: 15px;
+          text-indent: 5px;
+        }
+      }
+      li:last-child{
+        button{
+          height: 40px;
+          width: 120px;
+          border-radius: 5px;
+          background-color: #700c9c;
+          background-image: -webkit-linear-gradient(top, #700C9C, #2079b0);
+          background-image: -moz-linear-gradient(top, #700C9C, #2079b0);
+          background-image: -ms-linear-gradient(top, #700C9C, #2079b0);
+          background-image: -o-linear-gradient(top, #700C9C, #2079b0);
+          background-image: linear-gradient(to bottom, #700C9C, #2079b0);
+          color: white;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 20px;
+          cursor: pointer;
+        }
+        button:hover{
+          background: #2079b0;
+          background-image: -webkit-linear-gradient(top, #2079b0, );
+          background-image: -moz-linear-gradient(top, #2079b0, #700C9C);
+          background-image: -ms-linear-gradient(top, #2079b0, #700C9C);
+          background-image: -o-linear-gradient(top, #2079b0, #700C9C);
+          background-image: linear-gradient(to bottom, #2079b0, #700C9C);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.contacto{
+  height: 81vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  &__formulario{
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    position: absolute;
+    top: 27%;
+    list-style: none;
+    background: #d8d8d8d3;
+    border-radius: 5%;
+    border: 5px solid;
+    border-color: #49319e;
+
+    h2{
+      top: 5%;
+      font-size: 35px;
+      font-family: 'Times New Roman', Times, serif;
+      color: #49319e;
+      position: relative;
+      text-align: center;
+      
+    } 
+
+    ul{
+      position: relative;
+      top: 10%;
+      list-style: none;
+      text-align: center;
+
+      li:first-child{
+        input{
+          border-radius: 20px;
+          width: 230px;
+          height: 40px;
+          margin-top: 10px;
+          margin-bottom: 15px;
+          text-indent: 5px;
+        }
+      }
+
+      li{
+        textarea{
+          border-radius: 20px;
+          width: 230px;
+          height: 120px;
+          margin-top: 10px;
+          margin-bottom: 15px;
+          text-indent: 10px;
+          resize: none;
+        }
+      }
+
+      button{
+        height: 40px;
+        width: 120px;
+        border-radius: 5px;
+        background-color: #700c9c;
+        background-image: -webkit-linear-gradient(top, #700C9C, #2079b0);
+        background-image: -moz-linear-gradient(top, #700C9C, #2079b0);
+        background-image: -ms-linear-gradient(top, #700C9C, #2079b0);
+        background-image: -o-linear-gradient(top, #700C9C, #2079b0);
+        background-image: linear-gradient(to bottom, #700C9C, #2079b0);
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      button:hover{
+        background: #2079b0;
+        background-image: -webkit-linear-gradient(top, #2079b0, );
+        background-image: -moz-linear-gradient(top, #2079b0, #700C9C);
+        background-image: -ms-linear-gradient(top, #2079b0, #700C9C);
+        background-image: -o-linear-gradient(top, #2079b0, #700C9C);
+        background-image: linear-gradient(to bottom, #2079b0, #700C9C);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.recuperar{
+  height: 81vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  &__formulario{
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    list-style: none;
+    background: #d8d8d8d3;;
+    border-radius: 5%;
+    border: 5px solid;
+    border-color: #49319e;
+
+    h2{
+      top: 5%;
+      font-size: 35px;
+      font-family: 'Times New Roman', Times, serif;
+      color: #49319e;
+      position: relative;
+      text-align: center;
+      
+    } 
+
+    ul{
+      position: relative;
+      top: 25%;
+      list-style: none;
+      text-align: center;
+
+      li:first-child{
+        input{
+          border-radius: 20px;
+          width: 230px;
+          height: 40px;
+          margin-top: 10px;
+          margin-bottom: 15px;
+          text-indent: 5px;
+        }
+      }
+
+      button{
+        height: 40px;
+        width: 120px;
+        border-radius: 5px;
+        background-color: #700c9c;
+        background-image: -webkit-linear-gradient(top, #700C9C, #2079b0);
+        background-image: -moz-linear-gradient(top, #700C9C, #2079b0);
+        background-image: -ms-linear-gradient(top, #700C9C, #2079b0);
+        background-image: -o-linear-gradient(top, #700C9C, #2079b0);
+        background-image: linear-gradient(to bottom, #700C9C, #2079b0);
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin-top: 10%;
+        cursor: pointer;
+      }
+      button:hover{
+        background: #2079b0;
+        background-image: -webkit-linear-gradient(top, #2079b0, );
+        background-image: -moz-linear-gradient(top, #2079b0, #700C9C);
+        background-image: -ms-linear-gradient(top, #2079b0, #700C9C);
+        background-image: -o-linear-gradient(top, #2079b0, #700C9C);
+        background-image: linear-gradient(to bottom, #2079b0, #700C9C);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .login{
+    height: 81vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+    &__formulario{
+      
+      width: 300px;
+      height: 300px;
+      align-items: center;
+      position: absolute;
+      top: 25%;
+      list-style: none;
+      background: #d8d8d8d3;
+      border-radius: 5%;
+      border: 5px solid;
+      border-color: #49319e;
+  
+      h2{
+        top: 5%;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #49319e;
+        position: relative;
+        text-align: center;
+        
+      } 
+  
+      ul{
+        position: relative;
+        top: 13%;
+        list-style: none;
+        text-align: center;
+  
+        li{
+          input{
+            border-radius: 20px;
+            width: 230px;
+            height: 40px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            text-indent: 5px;
+          }
+        }
+        li:last-child{
+          button{
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            background-color: #700c9c;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            cursor: pointer;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .register{
+    height: 81vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+    &__formulario{
+      width: 300px;
+      height: 370px;
+      align-items: center;
+      position: absolute;
+      top: 15%;
+      list-style: none;
+      background: #d8d8d8;
+      border-radius: 5%;
+      border: 5px solid;
+      border-color: #49319e;
+  
+      h2{
+        top: 5%;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #49319e;
+        position: relative;
+        text-align: center;
+        
+      } 
+  
+      ul{
+        position: relative;
+        top: 17%;
+        list-style: none;
+        text-align: center;
+  
+        li{
+          input{
+            border-radius: 20px;
+            width: 230px;
+            height: 40px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            text-indent: 5px;
+          }
+        }
+        li:last-child{
+          button{
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            background-color: #700c9c;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 480px){
+  .contacto{
+    height: 81vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+    &__formulario{
+      width: 300px;
+      height: 370px;
+      align-items: center;
+      position: absolute;
+      top: 16%;
+      list-style: none;
+      background: #d8d8d8;
+      border-radius: 5%;
+      border: 5px solid;
+      border-color: #49319e;
+  
+      h2{
+        top: 5%;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #49319e;
+        position: relative;
+        text-align: center;
+        
+      } 
+  
+      ul{
+        position: relative;
+        top: 10%;
+        list-style: none;
+        text-align: center;
+  
+        li:first-child{
+          input{
+            border-radius: 20px;
+            width: 230px;
+            height: 40px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            text-indent: 5px;
+          }
+        }
+  
+        li{
+          textarea{
+            border-radius: 20px;
+            width: 230px;
+            height: 120px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            text-indent: 10px;
+            resize: none;
+          }
+        }
+  
+        button{
+          height: 40px;
+          width: 120px;
+          border-radius: 5px;
+          background-color: #700c9c;
+          color: white;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .recuperar{
+    height: 81vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+    &__formulario{
+      width: 330px;
+      height: 300px;
+      align-items: center;
+      position: absolute;
+      top: 25%;
+      list-style: none;
+      background: #d8d8d8;
+      border-radius: 5%;
+      border: 5px solid;
+      border-color: #49319e;
+  
+      h2{
+        top:8%;
+        font-size: 28px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #49319e;
+        position: relative;
+        text-align: center;
+        
+      } 
+  
+      ul{
+        position: relative;
+        top: 27%;
+        list-style: none;
+        text-align: center;
+  
+        li:first-child{
+          input{
+            border-radius: 20px;
+            width: 230px;
+            height: 40px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            text-indent: 5px;
+          }
+        }
+  
+        button{
+          height: 40px;
+          width: 120px;
+          border-radius: 5px;
+          background-color: #700c9c;
+          color: white;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 20px;
+          margin-top: 10%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

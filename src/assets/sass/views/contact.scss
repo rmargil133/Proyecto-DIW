@@ -1,0 +1,21 @@
+.contacto{
+
+    &__imagen{
+      position: relative;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      }
+  }
+  
+  @media (max-width:480px){
+    .contacto{
+  
+      &__imagen{
+        position: relative;
+        height: 81vh;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }

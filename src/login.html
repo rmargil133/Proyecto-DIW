@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>My First Parcel App</title>
+    <link rel="stylesheet" href="assets/sass/main.scss" />
+    <script type="module" src="assets/js/app.ts"></script>
+  </head>
+  <body>
+    <header class="cabecera">
+      <div>
+        <a href="index.html"><img class="logo-cabecera" src="assets/img/Cabecera/logo-cabecera.png" alt="logo cabecera"></a>
+        <h1>Clash Royale API</h1>
+      </div>   
+      <button class="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </button>
+      <nav class="nav">
+          <ul>
+            <li><a href="listado1.html">Cartas</a></li>
+            <li><a href="contacto1.html">Contacto</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main class="login">
+      <img class="login__imagen" src="assets/img/Fondo/fondo-inicio.png" alt="fondo-inicio">
+      <form class="login__formulario" action="registrado.html">   
+        <h2> Iniciar sesión </h2>
+        <ul>
+          <li>
+            <input placeholder="Nombre de usuario" type="text" id="name" name="user_name"/>
+          </li>
+          <li>
+            <input placeholder="Contraseña" type="text" id="contraseña" name="user_contraseña"/>
+          </li>
+          <li>
+            <button type="submit">Iniciar</button>    
+          </li>
+          <li>
+            <a href="recuperar-contraseña.html">Recuperar Contraseña</a>
+          </li>
+     
+        </ul>
+      </form>
+    </main>
+    <footer>
+      <fieldset>
+        <img class="logo-instagram" src="assets/img/Pie de página/instagram.png" alt="logo instagram">
+        <img class ="logo-twitter" src="assets/img/Pie de página/twitter.png" alt="logo twitter">
+        <img class="logo-facebook" src="assets/img/Pie de página/facebook.png" alt="logo facebook">
+        <img class="logo-youtube" src="assets/img/Pie de página/youtube.png" alt="logo youtube">
+      </fieldset>
+      <ul>
+        <li>Aviso legal</li>
+        <li>Politica de cookies</li>
+      </ul>
+    </footer>
+  </body>
+</html>
